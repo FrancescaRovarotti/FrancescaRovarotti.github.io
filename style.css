@@ -57,6 +57,12 @@ Per Smartphone
   .nav_menu{float:left;padding: 0px;}
   .nav_menu_item{width: 100%;}
   .is-open{height: 410px; overflow:visible;}
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  .nav{padding-top: 20rem;}
 }
 
 
