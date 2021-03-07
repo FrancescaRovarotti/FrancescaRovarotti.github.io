@@ -1,133 +1,44 @@
-<!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sito dei siti</title>
+    <title>Document</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">  <!--link allo stylesheet Normalize CSS-->
+    <link rel="stylesheet" href="style.css">    
 </head>
 <body>
-        <header>
-                <div id="intestazione">
-                    <h1>
-                        Corso di HTML e CSS
-                    </h1>
-                    <nav id="menu-principale">
-                        <ul>
-                            <li><a href="#">Layout</a></li>
-                            <li><a href="http://FrancescaRovarotti.github.io/ricetta/index.html">Ricetta</a></li>
-                            <li><a href="http://francescarovarotti.altervista.org/owl-carousel/index.html">Owl Carousel</a></li>
-                            <li><a href="http://FrancescaRovarotti.github.io/flipcard/index.html">Flipcard</a></li>
-                            <li><a href="http://FrancescaRovarotti.github.io/bootstrap/index.html">Bootstrap</a></li>
-                            <li><a href="#">About us</a></li>
-                        </ul>
-                    </nav>
-                </div>   
-            </header>
-            <main>
-                    <div id="all">   
-                    <article id="layout">
-                        <i class="fas fa-film cerchio"aria-hidden="true"></i>
-                        <h2>Primo Layout</h2>
-                        <p>
-                            La pagina visualizzata in questo momento è stata realizzata a partire da una traccia fornita da Roberto, che ho riproposto modificandone i colori, i contenuti e alcune proporzioni. 
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, fuga quia? Cupiditate veniam mollitia cum debitis provident eligendi quis, perferendis minus unde blanditiis? Necessitatibus voluptatum officiis assumenda! Libero, quia fuga?
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, fuga quia? Cupiditate veniam mollitia cum debitis provident eligendi quis, perferendis minus unde blanditiis? Necessitatibus voluptatum officiis assumenda! Libero, quia fuga?
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, fuga quia? Cupiditate veniam mollitia cum debitis provident eligendi quis, perferendis minus unde blanditiis? Necessitatibus voluptatum officiis assumenda! Libero, quia fuga?
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, fuga quia? Cupiditate veniam mollitia cum debitis provident eligendi quis, perferendis minus unde blanditiis? Necessitatibus voluptatum officiis assumenda! Libero, quia fuga?
-                        </p>
-                    </article>
-                    <aside id="laterale">
-                        <section class="correlati">
-                            <div id="vuoto">
-                                <!-- vuoto -->
-                            </div>
-                                <h2>
-                                    Correlati 
-                                    </h2>
-                            <section class="esercizi">        
-                            <div class="esercizi-item">
-                                <i class="fas fa-film icona1"aria-hidden="true"></i>
-                                <div>
-                                <h3>
-                                    Owl Carousel
-                                </h3>
-                                <p>
-                                    Il carosello di immagini.
-                                </p>
-                                </div>
-                            </div >
-                            <div class="esercizi-item">
-                                <i class="fas fa-film icona1"aria-hidden="true"></i>
-                                <div class="esercizi-scritta">
-                                <h3>
-                                    Flipcard
-                                </h3>
-                                <p>
-                                    Immagine ingrandita e rappresentata su sfondo nero.
-                                </p>
-                                </div>
-                            </div>
-                            <div class="esercizi-item">
-                                <i class="fas fa-film icona1"aria-hidden="true"></i>
-                                <div class="esercizi-scritta">
-                                <h3>
-                                    Bootstrap
-                                </h3>
-                                <p>
-                                    L'utilizzo di un framework.                                      
-                                </p>
-                                </div>
-                            </div>
-                            <div class="esercizi-item">
-                                <i class="fas fa-code icona1"></i>
-                                <div>
-                                <h3>
-                                    Ricetta
-                                </h3>
-                                <p>
-                                    L'impaginazione di una ricetta.
-                                </p>
-                                </div>
-                            </div>
-                            <div class="esercizi-item">
-                                <i class="fas fa-film icona1"aria-hidden="true"></i>
-                                <div>
-                                <h3 id="more">
-                                    E molto di più!
-                                </h3>
-                                <p>
-                                    Scopri nuovi effetti!
-                                </p>
-                                </div>
-                            </div>
-                            </section>
-                        </section>
-                    </aside>
-                    
-                    </div>
-                    </main>
+    <header class="header container-top">
+        <div>
+            <img src="Riferimenti/me.jpg" class="rounded" alt"me">
+        </div>
+        <h1>Francesca Rovarotti</h1>
+    </header>
+    <nav class="nav clearfix">
+    <a href="" class="nav_icon_bar">
+        <span></span>
+        <span></span>
+        <span></span>
+    </a>
+    <ul class= "nav_menu animate"> 
+        <li class= "nav_menu_item"><a href="Index.html">Home</a></li>
+        <li class= "nav_menu_item"><a href="Formazione.html">Formazione</a></li>
+        <li class= "nav_menu_item"><a href="Lavoro.html">Lavoro</a></li>
+        <li class= "nav_menu_item"><a href="Software.html">Software</a></li>
+        <li class= "nav_menu_item"><a href="Hobbies.html">Hobbies</a></li>
+    </ul>
+    </nav>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    <!--Script per aggiungere Jquery-->
+<script>
+    $(document).ready(function(){
+        $(".nav_icon_bar").click(function(e){
+            $(".nav_menu").toggleClass("is-open");
+            e.preventDefault();
+        })
+    });
 
-
-
-    <div class="content">
-        
-    </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</script>
 </body>
 </html>
