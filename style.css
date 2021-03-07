@@ -4,6 +4,9 @@ h1{font-family: Arial, Helvetica, sans-serif;color: white;}
 h1{margin-left: 10px; margin-right:10px; margin-top:50px; margin-bottom:50px;width: 200px;}
 img{max-width: 15rem; height: auto;}
 a{text-decoration: none;}
+ul {
+  padding-inline-start: 0px;
+}
 .fa-cookie-bite{size: 10px;}
 
 .animate{
