@@ -47,7 +47,7 @@ Per Tablet
 Per Smartphone
 -----------------*/
 @media (max-width: 767px) {
-  h1{margin-left: 10px; margin-right:10px;padding-right: 20px; margin-top:30px; margin-bottom:30px;width: 100px;}
+  h1{margin-left: 10px; margin-right:10px;padding-right: 20px; margin-top:30px; margin-bottom:30px;width: 100px;padding-right: 40px;}
   img{max-width: 9rem; height: auto;}
   .nav_menu{display:flex; flex-direction: column;align-content:flex-end;height: 60px;margin: 0;border: 0;}
   .nav_menu_item{display:flex;align-content: left;}
